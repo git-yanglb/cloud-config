@@ -1,7 +1,6 @@
 
 server:
   port: 8763
-eureka:
-  client:
-    service-url:
-      defaultZone: http://wei:wei@localhost:8761/eureka
+girl:
+  name: aa
+  age: 18
