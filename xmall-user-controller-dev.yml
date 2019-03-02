@@ -1,2 +1,8 @@
+spirng:
+  datasource:
+    driver-class-name: com.mysql.Driver
+    url: jdbc:mysql:///xmall?useUnicode=true&useSSL=false&characterEncoding=utf-8
+    username: root
+    password: 1234
 server:
   port: 8500
