@@ -6,3 +6,6 @@ spirng:
     password: 1234
 server:
   port: 8500
+mybatis:
+  mapper-locations: classpath*:cn/exrickl/user/mapper/*.xml
+  type-aliases-package: cn.exrick.user.entity
