@@ -11,7 +11,7 @@ mybatis:
   type-aliases-package: cn.exrick.user.entity
 logging:
   level:
-    org.mybatis: debug
-    com.wy.model: debug
-    org.springframework.transaction: debug
-    org.springframework.web: debug
+    "org.mybatis": debug
+    "com.wy.model": debug
+    "org.springframework.transaction": debug
+    "org.springframework.web": debug
