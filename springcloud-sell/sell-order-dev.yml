@@ -1,0 +1,18 @@
+server:
+  port: 8079
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/springcloud_sell?useUnicode=true&useSSL=false&characterEncoding=utf-8
+    username: root
+    password: 1234
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+      
+# 定义对应服务的负载均衡策略      
+SELL-PRODUCT:
+  ribbon:
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
