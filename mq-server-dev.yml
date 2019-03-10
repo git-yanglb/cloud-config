@@ -1,7 +1,0 @@
-server:
-  port: 8764
-spring:
-  rabbitmq:
-    host: localhost
-    username: guest
-    password: guest
