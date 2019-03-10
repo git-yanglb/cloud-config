@@ -16,4 +16,4 @@ spring:
 SELL-PRODUCT:
   ribbon:
     NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
-env: test4
+env: test5
